@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phexpress</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav id="topo">
+        <div class="logo1">
+            <img src="img/logo1.png" width="150px" alt="Ph">
+        </div>
+        <ul id="acess">
+            <li>
+                <a id="link-home">HOME</a>
+            </li>
+            <li>
+                <a id="link-contato"> CONTATO </a>
+            </li>
+            <li>
+                <a id="link-sobre"> SOBRE NÓS</a>
+            </li>
+        </ul>
+        <button id="carrinho">
+            <img src="img/icons8-carrinho-de-compras-30.png" width="45px" alt="carrinho">
+        </button>
+    </nav>
+    <main class="produtos-container">
+        <div class="produto">
+            <img src="img/camiseta.jpg" alt="Produto 1">
+            <h2>Camiseta Oversize</h2>
+            <p>R$ 99,90</p>
+            </h2>
+            <button class="btn-add">Adicionar ao Carrinho</button>
+        </div>
+    
+        <div class="produto">
+            <img src="img/calca.jpg" alt="Produto 2">
+            <h2>Calça Baggy</h2>
+            <p>R$ 199,90</p>
+            <button class="btn-add">Adicionar ao Carrinho</button>
+        </div>
+    
+        <div class="produto">
+            <img src="img/corrente.jpg" alt="Produto 3">
+            <h2>Corrente Prata 925</h2>
+            <p>R$ 249,90</p>
+            <button class="btn-add">Adicionar ao Carrinho</button>
+        </div>
+    </main>
+    <footer>
+        <div class="sobre-nos">
+            <div class="logofooter">
+                <img src="img/logo1.png" alt="logofooter">
+            </div>
+            <div class="texto-sobre">
+                <p><span>PHEXPRESS</span> conectando estilo e personalidade com <br>moda e acessórios que seguem as tendências.Uma <br>experiência digital pràtica e cheia de atitude.</p>
+            </div>
+        </div>
+        <div class="footer-top">
+            <div class="social">
+                <a href="1"><img src="img/icons8-logo-discord-50.png" alt=""></a>
+                <a href="2"><img src="img/icons8-instagram-50.png" alt=""></a>
+                <a href="3"><img src="img/icons8-linkedin-50.png" alt=""></a>
+                <div class="texto">
+                    <p>SEGUE</p>
+                    <P>AS</P>
+                    <P>REDES</P>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>Copyright 2025 Todos os direitos reservados</p>
+            <p>POLÍTICAS DE PRIVACIDADE POLÍTICAS DE COOKIES</p>
+            <p>Desenvolvido por <span>Pedro H. Corrêa</span></p>
+        </div>
+         
+    </footer>
+    <div id="cart-sidebar">
+        <div class="topo-cart">
+            <h2>Seu Carrinho</h2>
+            <button id="fechar-cart">×</button>
+        </div>
+        <div id="cart-items">
+            
+        </div>
+        <div id="fim-cart">
+            <p>Total: R$ <span id="cart-total">0.00</span></p>
+            <button id="finalizar-compra">Finalizar Compra</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
